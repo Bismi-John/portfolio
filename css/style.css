@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mcontainer {
+    background-color: rgb(250, 245, 245);
+    min-height: 100%;
+    font-family: candara;
+    font-size: 14px;
+    border: 30px solid white;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.header {
+    border-bottom: 5px solid red;
+    height: 30px;
+}
+
+.subject {
+    display: flex;
+    height: 320px;
+    border: 2px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+.subject img {
+    width: 270px;
+    height: 250px;
+}
+
+.sub-content {
+    border: 2px;
+    width: fit-content;
+    padding-left: 38px;
+    text-align: justify;
+    height: 320px;
+    line-height: 20px;
+}
+
+.pcolor {
+    color: brown;
+    font-size: larger;
+}
+.my-details {
+    margin-top: 30px;
+}
+.dob {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+.dob-content {
+    border: 2px;
+    width: 150px;
+}
+.icon img {
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+}
+.activity {
+    border: 2px;
+    height: 70px;
+    margin-left: 100px;
+    margin-right: 70px;
+    margin-top: 40px;
+    padding-left: 30px;
+    display: flex;
+    gap: 15px;
+    box-sizing: border-box;
+}
+.history {
+    border: 2px;
+    height: 70px;
+    margin-left: 100px;
+    margin-right: 70px;
+    margin-top: 40px;
+    padding-left: 30px;
+    display: flex;
+    gap: 15px;
+    box-sizing: border-box;
+}
+
+.color {
+    border: 2px;
+    width: 300px;
+    padding-left: 44px;
+}
+.special {
+    border: 2px;
+    box-sizing: border-box;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 70px;
+    margin-top: 40px;
+    padding-left: 30px;
+    line-height: 20px;
+    gap: 15px;
+    box-sizing: border-box;
+}
+.special-color {
+    border: 2px;
+    width: 450px;
+    padding-left: 44px;
+}
+.special-head {
+    border: 2px;
+    color: rgb(101, 101, 52);
+    width: 217px;
+    text-align: right;
+}
+.skill {
+    border: 2px;
+    box-sizing: border-box;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 70px;
+    margin-top: 40px;
+    padding-left: 30px;
+    line-height: 20px;
+    gap: 15px;
+    box-sizing: border-box;
+}
+.skill p {
+    display: inline;
+}
+
+.skill-head1 {
+    border: 2px;
+    color: rgb(101, 101, 52);
+    width: 219px;
+    text-align: right;
+}
+.skill-color {
+    width: 450px;
+    border: 2px;
+    padding-left: 44px;
+}
+.skill-color1-head {
+    border: 2px;
+}
+
+.skill-color1 {
+    border-bottom: 2px solid rgb(210, 12, 39);
+    display: flex;
+    height: 20px;
+    position: relative;
+    width: 62%;
+    gap: 180px;
+}
+
+.skill-color2 {
+    border-bottom: 2px solid rgb(210, 12, 39);
+    height: 20px;
+    position: relative;
+    width: 90%;
+    display: flex;
+    gap: 245px;
+}
+.skill-color3 {
+    border-bottom: 2px solid rgb(210, 12, 39);
+    height: 20px;
+    position: relative;
+    width: 75%;
+    display: flex;
+    gap: 205px;
+}
+.skill-color4 {
+    border-bottom: 2px solid rgb(210, 12, 39);
+    height: 20px;
+    position: relative;
+    width: 55%;
+    display: flex;
+    gap: 110px;
+}
+.skill-color5 {
+    border-bottom: 2px solid rgb(210, 12, 39);
+    height: 20px;
+    position: relative;
+    width: 90%;
+    display: flex;
+    gap: 205px;
+}
+.skill-color6 {
+    border-bottom: 2px solid rgb(210, 12, 39);
+    height: 20px;
+    position: relative;
+    width: 50%;
+    display: flex;
+    gap: 160px;
+}
+.skill-color7 {
+    border-bottom: 2px solid rgb(210, 12, 39);
+    height: 20px;
+    position: relative;
+    width: 75%;
+    display: flex;
+    gap: 210px;
+}
+.skill-color8 {
+    border-bottom: 2px solid rgb(210, 12, 39);
+    height: 20px;
+    position: relative;
+    width: 55%;
+    display: flex;
+    gap: 120px;
+}
+.skill-head {
+    border: 2px;
+    color: rgb(101, 101, 52);
+    width: 219px;
+}
+.percentage {
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.experience {
+    border: 2px;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 70px;
+    margin-top: 40px;
+    padding-left: 30px;
+    gap: 15px;
+    box-sizing: border-box;
+}
+.experience-head {
+    border: 2px;
+    color: rgb(101, 101, 52);
+    width: 219px;
+    text-align: right;
+}
+.experience-color {
+    width: 450px;
+    border: 2px;
+    padding-left: 44px;
+}
+.education {
+    border: 2px;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 70px;
+    margin-top: 40px;
+
+    gap: 15px;
+    box-sizing: border-box;
+}
+.education-head {
+    border: 2px;
+    color: rgb(101, 101, 52);
+    width: 185px;
+    text-align: right;
+}
+.education-color {
+    width: 425px;
+    border: 2px;
+    padding-left: 40px;
+}
+.profile {
+    border: 2px;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 70px;
+    margin-top: 40px;
+    padding-left: 30px;
+    line-height: 20px;
+    gap: 10px;
+    box-sizing: border-box;
+}
+.profile-head {
+    border: 2px;
+    color: rgb(101, 101, 52);
+    width: 210px;
+    text-align: right;
+}
+.profile-color {
+    width: 430px;
+    border: 2px;
+    padding-left: 46px;
+}
+
+.portfolio {
+    border: 2px;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 70px;
+    margin-top: 40px;
+    padding-left: 32px;
+    gap: 20px;
+    box-sizing: border-box;
+}
+.portfolio-head {
+    border: 2px;
+    color: rgb(101, 101, 52);
+    width: 154px;
+    text-align: right;
+}
+.portfolio-color {
+    width: 640px;
+    border: 2px;
+    padding-left: 35px;
+}
+/* .portfolio-img:hover {
+     position: absolute;
+    top: 1650px;
+    right: 180px;
+    height: 370px;
+    width: 670px;
+    border-radius: 15px; 
+    transform: scale(2.5);
+} */
+.portfolio img {
+    width: 270px;
+    height: 270px;
+    border-radius: 15px;
+}
+.contact {
+    border: 2px;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 40px;
+    padding-left: 30px;
+    line-height: 20px;
+    gap: 15px;
+    box-sizing: border-box;
+}
+.contact-head {
+    border: 2px;
+    color: rgb(101, 101, 52);
+    width: 250px;
+    text-align: right;
+}
+.contact-color {
+    width: 290px;
+    border: 2px;
+    padding-left: 25px;
+}
+.form {
+    border: 2px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    padding-left: 44px;
+    width: fit-content;
+}
+.form-head {
+    border: 2px;
+    color: rgb(101, 101, 52);
+    margin-left: 300px;
+    margin-right: 90px;
+    margin-top: 40px;
+}
+.get {
+    border: 2px;
+    padding-left: 42px;
+}
